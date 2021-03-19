@@ -2,7 +2,6 @@ package com.amazon.bestSeller;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -25,7 +24,6 @@ public class GetAmazonTitle {
 		
 		
 		
-		
 		String amazonTitile = driver.getTitle();
 		//String is a datatype equal is an operator 
 		//driver.getTitle is a  amazon title is the variable name
@@ -38,11 +36,6 @@ public class GetAmazonTitle {
 		
 		
 		
-		
-		
-		
-		
-
 
 	}
 
